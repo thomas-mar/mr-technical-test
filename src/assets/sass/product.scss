@@ -1,0 +1,81 @@
+@import './variables.scss';
+
+
+
+.product-image {
+    @media(min-width: 992px) {
+        padding-right: 1rem;
+    }
+    img{
+        max-width: 400px;
+    }
+}
+
+.product-details {
+    @media(min-width: 992px) {
+        padding-left: 6.5rem;
+    }
+    padding-bottom: 100px;
+}
+
+
+
+.size-options {
+    label {
+        text-transform: uppercase;
+        font-size: 12px;
+
+        .selected-size {
+            color: #222;
+            font-weight: bold;
+            margin-left: 2px;
+        }
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+    
+        .option {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #CCC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 12px;
+    
+            span {
+                text-align: center;
+            }
+
+            &.selected {
+    
+                border: 2px solid #222;
+        
+            }
+        }
+    
+
+    
+    }
+}
+
+
+
+
+button {
+    border: 2px solid #222;
+    background-color: #FFF;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.2s ease;
+    font-size: 16px;
+
+    &:hover {
+        background-color: #222;
+        color: #FFF;
+    }
+}

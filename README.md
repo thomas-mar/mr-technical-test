@@ -1,8 +1,12 @@
-# React + Vite
+# MR techincal test
+- Thomas Mar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple product details section for a clothing site with cart functionality to store a customer’s product selections. The clothing site will comprise a client-side app in Javascript, HTML, CSS.
 
-Currently, two official plugins are available:
+Several additional asumptions and edge cases handled:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Font negligible - using default Bootstrap font.
+- Only available option is Size.
+- As size is required, no need for implementaton of deselecting option.
+- Added a Empty cart message when no items selected.
+- Added additional Clear Cart logic implented. This is commented out due to not in requirements. 
